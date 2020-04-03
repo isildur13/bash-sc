@@ -1,2 +1,1 @@
-This is the repo for Bash Scripts.
-
+This repo consists of some handy bash-sc scripts..
