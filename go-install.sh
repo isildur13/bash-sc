@@ -11,4 +11,5 @@ wget -O go$VERSION.$OS-$ARCH.tar.gz https://dl.google.com/go/go$VERSION.$OS-$ARC
 tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 echo "export PATH=$PATH:/usr/local/go/bin" >> /etc/profile
 rm go$VERSION.$OS-$ARCH.tar.gz
+sleep 10
 go version
